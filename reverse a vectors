@@ -1,0 +1,19 @@
+#include<iostream>
+#include<vector>
+using namespace std;
+int main()
+{
+    vector<int>n;
+    for(int i=0;i<=20;i++)
+    
+    {
+        n.push_back(i);
+       
+    }
+        vector<int>::reverse_iterator rit;
+    for(rit=n.rbegin();rit!=n.rend();rit++)
+    {
+        cout<<*rit<<" ";
+    }
+    return 0;
+}
