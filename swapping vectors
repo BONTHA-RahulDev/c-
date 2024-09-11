@@ -1,0 +1,23 @@
+  #include<iostream>
+#include<vector>
+using namespace std;
+int main()
+{
+    
+    vector<int>a={1,2,3,4,5};
+    vector<int>b={10,20,30,40};
+    a.swap(b);
+    
+    cout<<"after swaping a :"<<endl;
+    for(auto n:a)
+    {
+        
+        cout<<  n <<" "<<endl;;
+        
+    }
+    cout<<"after swapping b;"<<endl;
+    for(auto n:b)
+    {
+        cout<< n <<endl;
+    }
+}
